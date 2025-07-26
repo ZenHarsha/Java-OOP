@@ -24,7 +24,7 @@ public class Student_Details {
         System.out.println("Roll Number: " + rollNo);
         System.out.println("Age: " + age);
         System.out.println("Year: " + year);
-        System.out.println("CGPA: " + cgps);
+        System.out.println("CGPA: " + cgpa);
 
         scanner.close();
     }
