@@ -4,12 +4,10 @@ class MovieTicket {
     String seatType;
     int pricePerTicket;
 
-    // Constructor with movie name and ticket count
     MovieTicket(String movieName, int ticketCount) {
         this(movieName, ticketCount, "Normal");
     }
 
-    // Constructor with movie name, ticket count, and seat type
     MovieTicket(String movieName, int ticketCount, String seatType) {
         this.movieName = movieName;
         this.ticketCount = ticketCount;
