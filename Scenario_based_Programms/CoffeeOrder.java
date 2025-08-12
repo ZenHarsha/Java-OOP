@@ -2,7 +2,6 @@ class CoffeeOrder {
     String size;
     int price;
 
-    // Constructor
     CoffeeOrder(String size) {
         this.size = size;
         if (size.equalsIgnoreCase("Small")) {
